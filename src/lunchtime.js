@@ -1,3 +1,5 @@
+import { a } from './vendor'
+console.log('a', a)
 export default function getNextLunchtime (hours, minutes) {
 	var lunchtime = new Date();
 
